@@ -1,0 +1,11 @@
+.nav {
+	min-width: 600px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__item {
+	font-size: 19px;
+	letter-spacing: 0.36px;
+	display: inline-block;
+}
