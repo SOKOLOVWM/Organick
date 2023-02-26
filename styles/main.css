@@ -1,8 +1,10 @@
 @import url(blocks/header.css);
+@import url(blocks/specials.css);
 
 @import url(elements/button.css);
 @import url(elements/cart.css);
 @import url(elements/nav.css);
+@import url(elements/title.css);
 
 @import url(fonts.css);
 @import url(header.css);
@@ -13,7 +15,7 @@
 	font-family: Roboto, sans-serif;
 	font-size: 18px;
 	line-height: 32px;
-	/* letter-spacing: 0.36px; */
+	letter-spacing: 0.36px;
 	color: var(--color-blue);
 }
 
@@ -21,6 +23,6 @@
 	outline: 1px solid red;
 
 	width: 100%;
-	max-width: 1280px;
+	max-width: 1440px;
 	margin: auto;
 }
