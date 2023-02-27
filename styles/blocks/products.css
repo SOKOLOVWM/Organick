@@ -1,0 +1,93 @@
+.products__wrapper {
+	min-height: 1620px;
+	padding: 0 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 40px;
+}
+
+.title-block {
+	text-align: center;
+}
+
+.goods {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	row-gap: 20px;
+	column-gap: 20px;
+}
+
+.goods__item {
+	width: 440px;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 30px;
+	background-color: var(--color-light-gray);
+	display: flex;
+	flex-direction: column;
+	justify-items: start;
+}
+
+.goods__mark {
+	/* min-width: 80px; */
+	padding: 5px 20px;
+	border-radius: 8px;
+	background-color: var(--color-blue);
+	color: #ffffff;
+	font-family: OpenSans-Bold;
+	font-size: 15px;
+	line-height: 27px;
+	display: flex;
+	align-self: start;
+}
+
+.goods__img {
+	margin: 10px 0 20px;
+}
+
+.goods__img img {
+	border-radius: 8px;
+}
+
+.goods__name {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d4d4d4;
+	font-size: 22px;
+	line-height: 35px;
+}
+
+.goods__cost {
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.goods__prise {
+	display: flex;
+	column-gap: 10px;
+}
+
+.goods__prise-old {
+	font-family: OpenSans;
+	font-size: 17px;
+	line-height: 32px;
+	text-decoration-line: line-through;
+	color: var(--color-gray);
+}
+
+.goods__prise-new {
+	font-family: OpenSans-Bold;
+}
+
+.goods__item:hover {
+	outline: 2px solid var(--color-dark-gray);
+	outline-offset: -2px;
+}
+
+.goods__mark:hover {
+	box-shadow: 0 0 8px var(--color-dark-gray);
+}

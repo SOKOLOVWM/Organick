@@ -2,6 +2,7 @@
 @import url(blocks/header.css);
 @import url(blocks/products.css);
 @import url(blocks/specials.css);
+@import url(blocks/testimony.css);
 
 @import url(elements/button.css);
 @import url(elements/cart.css);
