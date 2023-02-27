@@ -1,0 +1,24 @@
+.title-common {
+	font-family: Roboto-Bold;
+	font-size: calc(13px + 2vw);
+	line-height: calc(28px + 2vw);
+	letter-spacing: 0.36px;
+	text-transform: capitalize;
+}
+
+.title-common--width {
+	max-width: 520px;
+}
+
+.title-italic {
+	font-family: Yellowtail;
+	font-size: 36px;
+	line-height: 65px;
+	letter-spacing: 0.36px;
+	text-transform: capitalize;
+	color: var(--color-light-green);
+}
+
+.title-italic--white {
+	color: #fff;
+}

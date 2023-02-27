@@ -1,0 +1,34 @@
+.specials__wrapper {
+	min-height: 660px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.specials__body {
+	min-width: 660px;
+	height: 380px;
+	padding: 0 55px;
+	box-sizing: border-box;
+	background-image: url(../../images/specials_natural.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.specials__body--right {
+	background-image: url(../../images/specials_offer.png);
+}
+
+.specials__title {
+	width: 260px;
+	font-size: 40px;
+	line-height: 52px;
+	color: #fff;
+}
+
+.specials__title--right {
+	color: var(--color-blue);
+}

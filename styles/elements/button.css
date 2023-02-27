@@ -1,6 +1,7 @@
 .button {
 	width: 200px;
 	height: 80px;
+	border: 1px solid var(--color-light-brown);
 	border-radius: 16px;
 	background-color: var(--color-light-brown);
 	display: flex;
@@ -20,4 +21,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.button--blue {
+	background-color: var(--color-blue);
+}
+
+.button--blue .button__name {
+	color: #fff;
 }
