@@ -1,0 +1,37 @@
+.subscribe__wrapper {
+	padding: 30px;
+}
+
+.subscribe__content {
+	min-height: 320px;
+	padding: 0 70px;
+	background-image: url(../../images/bg_orange.png);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.subscribe__title {
+	max-width: 320px;
+}
+
+.form-email {
+	display: flex;
+	column-gap: 10px;
+}
+
+.form-email__input {
+	width: 350px;
+	height: 80px;
+	padding: 30px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 16px;
+}
+
+.form-email__input::placeholder {
+	font-family: OpenSans;
+	line-height: 29px;
+}
