@@ -1,0 +1,56 @@
+.categories__wrapper {
+	min-height: 860px;
+	padding: 30px 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.categories__content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	row-gap: 30px;
+	column-gap: 30px;
+}
+
+.categories__item {
+	width: 460px;
+	min-height: 580px;
+	background-image: url(../../images/categories_juice.png);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.categories__item-box {
+	width: 280px;
+	height: 90px;
+	padding: 20px;
+	border-radius: 20px;
+	box-sizing: border-box;
+	background-color: #fff;
+	font-family: Roboto-Bold;
+	font-size: 25px;
+	line-height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.categories__item--food {
+	background-image: url(../../images/categories_food.png);
+}
+
+.categories__item--cookie {
+	background-image: url(../../images/categories_cookie.png);
+}
+
+.categories__item-box:hover {
+	background-color: var(--color-gray);
+	color: #fff;
+}
