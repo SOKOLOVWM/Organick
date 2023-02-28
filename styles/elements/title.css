@@ -10,6 +10,10 @@
 	max-width: 520px;
 }
 
+.title-common--white {
+	color: #fff;
+}
+
 .title-italic {
 	font-family: Yellowtail;
 	font-size: calc(20px + 1vw);

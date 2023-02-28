@@ -1,6 +1,7 @@
 .testimony__wrapper {
 	min-height: 1250px;
-	padding: 0 30px;
+	padding: 30px 30px;
+	box-sizing: border-box;
 	background-image: url(../../images/bg_cinnamon.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
