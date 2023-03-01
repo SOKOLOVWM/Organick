@@ -18,6 +18,10 @@
 		display: none;
 	}
 
+	.nav__item {
+		font-size: 22px;
+	}
+
 	.nav__item:hover {
 		color: #fff;
 	}

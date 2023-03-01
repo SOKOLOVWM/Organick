@@ -4,10 +4,12 @@
 
 .subscribe__content {
 	min-height: 320px;
-	padding: 0 70px;
+	padding: 30px 70px;
+	box-sizing: border-box;
+	border-radius: 30px;
 	background-image: url(../../images/bg_orange.png);
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: 100% 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -17,21 +19,21 @@
 	max-width: 320px;
 }
 
-.form-email {
-	display: flex;
-	column-gap: 10px;
+@media (max-width: 1280px) {
+	.subscribe__content {
+		text-align: center;
+		flex-direction: column;
+		justify-content: center;
+		row-gap: 30px;
+	}
+
+	.subscribe__title {
+		max-width: none;
+	}
 }
 
-.form-email__input {
-	width: 350px;
-	height: 80px;
-	padding: 30px;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
-	border-radius: 16px;
-}
-
-.form-email__input::placeholder {
-	font-family: OpenSans, sans-serif;
-	line-height: 29px;
+@media (max-width: 960px) {
+	.subscribe__content {
+		background-size: cover;
+	}
 }

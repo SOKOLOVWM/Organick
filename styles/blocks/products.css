@@ -33,7 +33,6 @@
 }
 
 .goods__mark {
-	/* min-width: 80px; */
 	padding: 5px 20px;
 	border-radius: 8px;
 	background-color: var(--color-blue);
@@ -91,4 +90,28 @@
 
 .goods__mark:hover {
 	box-shadow: 0 0 8px var(--color-dark-gray);
+}
+
+@media (max-width: 480px) {
+	.goods__item {
+		width: 100%;
+		padding: 30px 20px;
+	}
+
+	.goods__img {
+		margin: 0;
+	}
+
+	.goods__img img {
+		width: 100%;
+		margin: 0;
+	}
+
+	.goods__name {
+		text-align: center;
+	}
+
+	.goods__cost {
+		flex-direction: column;
+	}
 }

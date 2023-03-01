@@ -56,3 +56,33 @@
 	font-size: 25px;
 	line-height: 35px;
 }
+
+@media (max-width: 1280px) {
+	.about__wrapper {
+		flex-direction: column;
+	}
+
+	.about__content {
+		max-width: 680px;
+	}
+
+	.about__content-top {
+		text-align: center;
+	}
+}
+
+@media (max-width: 740px) {
+	.about__img img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 640px) {
+	.about__rule {
+		text-align: center;
+	}
+
+	.about__rule-img {
+		display: none;
+	}
+}

@@ -26,3 +26,14 @@
 .title-italic--white {
 	color: #fff;
 }
+
+@media (max-width: 1280px) {
+	.title-common {
+		font-size: 38px;
+		line-height: 52px;
+	}
+
+	.title-common--width {
+		max-width: none;
+	}
+}

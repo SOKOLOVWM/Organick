@@ -14,8 +14,8 @@
 
 	<body>
 		<div class="organick">
-			<header class="header">
-				<div class="container">
+			<div class="container">
+				<header class="header">
 					<div class="header-top">
 						<a href="*" class="logo">
 							<img src="images/logo.svg" alt="logo" />
@@ -61,11 +61,9 @@
 							</div>
 						</a>
 					</div>
-				</div>
-			</header>
+				</header>
 
-			<section class="specials">
-				<div class="container">
+				<section class="specials">
 					<div class="specials__wrapper">
 						<div class="specials__body">
 							<div class="title-italic title-italic--white">Natural!!</div>
@@ -79,11 +77,9 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-			<section class="about">
-				<div class="container">
+				<section class="about">
 					<div class="about__wrapper">
 						<div class="about__img">
 							<img src="images/citrus.png" alt="citrus" />
@@ -143,11 +139,9 @@
 							</a>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-			<section class="products">
-				<div class="container">
+				<section class="products">
 					<div class="products__wrapper">
 						<div class="title-block">
 							<div class="title-italic">Organic</div>
@@ -323,11 +317,9 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-			<section class="testimony">
-				<div class="container">
+				<section class="testimony">
 					<div class="testimony__wrapper">
 						<div class="testimony__title">
 							<div class="title-italic">Testimonial</div>
@@ -335,12 +327,18 @@
 						</div>
 
 						<div class="customer">
-							<div class="customer__photo">
+							<a href="#" class="customer__photo">
 								<img src="images/woman.png" alt="customer" />
-							</div>
+							</a>
 
 							<div class="rating-area rating-area--big">
-								<input type="radio" name="rating" id="star-5" value="5" />
+								<input
+									type="radio"
+									name="rating"
+									id="star-5"
+									value="5"
+									checked
+								/>
 								<label for="star-5" title="5"></label>
 								<input type="radio" name="rating" id="star-4" value="4" />
 								<label for="star-4" title="4"></label>
@@ -385,11 +383,9 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-			<section class="catalog">
-				<div class="container">
+				<section class="catalog">
 					<div class="catalog__wrapper">
 						<div class="catalog__header">
 							<div class="catalog__title">
@@ -399,7 +395,7 @@
 								</div>
 							</div>
 
-							<a href="#" class="button button--down button--outline">
+							<a href="#" class="button button--right button--outline">
 								<div class="button__name">View All products</div>
 								<div class="button__arrow">
 									<img src="images/icon_arrow.svg" alt="arrow" />
@@ -493,11 +489,9 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-			<section class="ecofarm">
-				<div class="container">
+				<section class="ecofarm">
 					<div class="ecofarm__wrapper">
 						<div class="ecofarm__content">
 							<div class="ecofarm__title">
@@ -533,11 +527,9 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-			<section class="categories">
-				<div class="container">
+				<section class="categories">
 					<div class="categories__wrapper">
 						<div class="categories__content">
 							<div class="categories__item">
@@ -553,11 +545,9 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-			<section class="subscribe">
-				<div class="container">
+				<section class="subscribe">
 					<div class="subscribe__wrapper">
 						<div class="subscribe__content">
 							<div class="subscribe__title">
@@ -572,7 +562,7 @@
 									class="form-email__input"
 									placeholder="Enter your email address"
 								/>
-								<a href="#" class="button button--blue">
+								<a href="#" class="button button--blue button--subscribe">
 									<div class="button__name">Subscribe</div>
 									<div class="button__arrow">
 										<img src="images/icon_arrow.svg" alt="arrow" />
@@ -581,11 +571,9 @@
 							</form>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
 
-			<footer class="footer">
-				<div class="container">
+				<footer class="footer">
 					<div class="footer__wrapper">
 						<div class="footer__top">
 							<div class="contacts">
@@ -649,20 +637,17 @@
 					</div>
 
 					<div class="footer__bottom">
-						<div class="container">
-							<iframe
-								src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5823219.517133765!2d-100.25947972608778!3d46.18212599321106!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1677643131553!5m2!1sru!2sby"
-								width="1440"
-								height="662"
-								style="border: 0"
-								allowfullscreen=""
-								loading="lazy"
-								referrerpolicy="no-referrer-when-downgrade"
-							></iframe>
-						</div>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5823219.517133765!2d-100.25947972608778!3d46.18212599321106!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1677643131553!5m2!1sru!2sby"
+							height="662"
+							style="border: 0"
+							allowfullscreen=""
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"
+						></iframe>
 					</div>
-				</div>
-			</footer>
+				</footer>
+			</div>
 		</div>
 	</body>
 </html>

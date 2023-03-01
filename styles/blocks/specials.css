@@ -3,18 +3,22 @@
 	padding: 30px 30px;
 	box-sizing: border-box;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
+	column-gap: 30px;
+	row-gap: 30px;
 }
 
 .specials__body {
 	min-width: 660px;
 	height: 380px;
 	padding: 0 55px;
+	border-radius: 30px;
 	box-sizing: border-box;
 	background-image: url(../../images/specials_natural.png);
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -33,4 +37,22 @@
 
 .specials__title--right {
 	color: var(--color-blue);
+}
+
+@media (max-width: 740px) {
+	.specials__body {
+		min-width: 100%;
+	}
+}
+
+@media (max-width: 640px) {
+	.specials__body {
+		padding: 0 20px;
+		text-align: center;
+	}
+
+	.specials__title {
+		width: auto;
+		font-size: calc(16px + 2vh);
+	}
 }

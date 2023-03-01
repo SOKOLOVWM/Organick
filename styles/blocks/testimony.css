@@ -25,6 +25,11 @@
 	row-gap: 20px;
 }
 
+.customer__photo img {
+	border: 4px solid transparent;
+	border-radius: 50%;
+}
+
 .customer__feedback {
 	font-family: OpenSans, sans-serif;
 	color: var(--color-dark-gray);
@@ -81,4 +86,19 @@
 
 .indicator__name {
 	font-family: OpenSans-Bold, sans-serif;
+}
+
+.customer__photo:hover img {
+	border: 4px solid var(--color-blue);
+}
+
+@media (max-width: 860px) {
+	.testimony__wrapper {
+		background-image: none;
+		background-color: #fcfcfc;
+	}
+
+	.line {
+		margin: 20px 0;
+	}
 }
