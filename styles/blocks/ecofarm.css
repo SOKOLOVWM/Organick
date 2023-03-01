@@ -33,12 +33,12 @@
 }
 
 .ecofarm__para-title {
-	font-family: Roboto-Bold;
+	font-family: Roboto-Bold, sans-serif;
 	font-size: 23px;
 	text-transform: capitalize;
 }
 
 .ecofarm__para-text {
-	font-family: OpenSans;
+	font-family: OpenSans, sans-serif;
 	color: var(--color-dark-gray);
 }

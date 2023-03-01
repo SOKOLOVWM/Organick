@@ -34,12 +34,13 @@
 	border-radius: 20px;
 	box-sizing: border-box;
 	background-color: #fff;
-	font-family: Roboto-Bold;
+	font-family: Roboto-Bold, sans-serif;
 	font-size: 25px;
 	line-height: 35px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: 0.5s;
 }
 
 .categories__item--food {
@@ -51,6 +52,5 @@
 }
 
 .categories__item-box:hover {
-	background-color: var(--color-gray);
-	color: #fff;
+	transform: scale(1.1);
 }

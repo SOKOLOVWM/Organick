@@ -1,0 +1,25 @@
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 860px) {
+	.header-bottom {
+		background-size: cover;
+	}
+
+	.header-bottom__title {
+		font-size: 34px;
+		line-height: 54px;
+	}
+}
+
+@media (max-width: 640px) {
+	.header-top {
+		flex-direction: column;
+		align-items: start;
+		row-gap: 20px;
+	}
+
+	.burger {
+		right: 30px;
+	}
+}

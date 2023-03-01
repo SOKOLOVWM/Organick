@@ -38,7 +38,7 @@
 	border-radius: 8px;
 	background-color: var(--color-blue);
 	color: #ffffff;
-	font-family: OpenSans-Bold;
+	font-family: OpenSans-Bold, sans-serif;
 	font-size: 15px;
 	line-height: 27px;
 	display: flex;
@@ -73,7 +73,7 @@
 }
 
 .goods__prise-old {
-	font-family: OpenSans;
+	font-family: OpenSans, sans-serif;
 	font-size: 17px;
 	line-height: 32px;
 	text-decoration-line: line-through;
@@ -81,7 +81,7 @@
 }
 
 .goods__prise-new {
-	font-family: OpenSans-Bold;
+	font-family: OpenSans-Bold, sans-serif;
 }
 
 .goods__item:hover {

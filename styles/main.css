@@ -9,6 +9,7 @@
 @import url(blocks/subscribe.css);
 @import url(blocks/testimony.css);
 
+@import url(elements/burger.css);
 @import url(elements/button.css);
 @import url(elements/cart.css);
 @import url(elements/nav.css);
@@ -20,6 +21,8 @@
 @import url(reset.css);
 @import url(variables.css);
 
+@import url(../temp.css);
+
 * {
 	font-family: Roboto, sans-serif;
 	font-size: 18px;
@@ -29,8 +32,6 @@
 }
 
 .container {
-	outline: 1px solid red;
-
 	width: 100%;
 	max-width: 1440px;
 	margin: auto;

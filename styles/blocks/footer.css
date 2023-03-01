@@ -24,7 +24,7 @@
 }
 
 .contacts__title {
-	font-family: Roboto-Bold;
+	font-family: Roboto-Bold, sans-serif;
 	font-size: 30px;
 	line-height: 42px;
 }
@@ -34,13 +34,13 @@
 }
 
 .contacts__name {
-	font-family: OpenSans-Bold;
+	font-family: OpenSans-Bold, sans-serif;
 	color: var(--color-dark-gray);
 	line-height: 23px;
 }
 
 .contacts__content {
-	font-family: OpenSans;
+	font-family: OpenSans, sans-serif;
 	color: var(--color-dark-gray);
 	line-height: 29px;
 }
@@ -57,7 +57,7 @@
 }
 
 .footer__top-text {
-	font-family: OpenSans;
+	font-family: OpenSans, sans-serif;
 	color: var(--color-dark-gray);
 }
 
@@ -86,17 +86,22 @@
 }
 
 .pages__title {
-	font-family: Roboto-Bold;
+	font-family: Roboto-Bold, sans-serif;
 	font-size: 30px;
 	line-height: 42px;
 }
 
 .pages__item {
-	font-family: OpenSans;
+	font-family: OpenSans, sans-serif;
 	line-height: 29px;
 	color: var(--color-dark-gray);
 }
 
+.contacts__content:hover,
 .pages__item:hover {
 	text-decoration: underline;
+}
+
+.social__item:hover {
+	background: var(--color-gray);
 }

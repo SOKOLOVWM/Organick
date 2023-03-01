@@ -32,6 +32,6 @@
 }
 
 .form-email__input::placeholder {
-	font-family: OpenSans;
+	font-family: OpenSans, sans-serif;
 	line-height: 29px;
 }

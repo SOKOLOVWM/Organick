@@ -26,18 +26,18 @@
 }
 
 .customer__feedback {
-	font-family: OpenSans;
+	font-family: OpenSans, sans-serif;
 	color: var(--color-dark-gray);
 }
 
 .customer__name {
-	font-family: Roboto-Bold;
+	font-family: Roboto-Bold, sans-serif;
 	font-size: 26px;
 	line-height: 34px;
 }
 
 .customer__title {
-	font-family: OpenSans;
+	font-family: OpenSans, sans-serif;
 	font-size: 14px;
 	line-height: 27px;
 	color: var(--color-dark-gray);
@@ -74,11 +74,11 @@
 }
 
 .indicator__value {
-	font-family: Roboto-Bold;
+	font-family: Roboto-Bold, sans-serif;
 	font-size: 42px;
 	line-height: 55px;
 }
 
 .indicator__name {
-	font-family: OpenSans-Bold;
+	font-family: OpenSans-Bold, sans-serif;
 }
