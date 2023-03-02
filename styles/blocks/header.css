@@ -55,6 +55,10 @@
 		row-gap: 20px;
 	}
 
+	.header-bottom {
+		margin-top: 236px;
+	}
+
 	.header-bottom__title {
 		width: auto;
 	}
