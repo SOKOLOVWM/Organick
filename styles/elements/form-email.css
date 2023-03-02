@@ -10,6 +10,7 @@
 	box-sizing: border-box;
 	border: 1px solid #ccc;
 	border-radius: 16px;
+	transition: 1s;
 }
 
 .form-email__input::placeholder {
@@ -23,11 +24,19 @@
 		align-items: center;
 		row-gap: 20px;
 	}
+
+	.form-email__input {
+		width: 100%;
+		flex-grow: 1;
+	}
 }
 
 @media (max-width: 640px) {
 	.form-email__input {
-		padding: 30px 10px;
 		width: 240px;
+	}
+
+	.form-email__input:placeholder-shown {
+		text-overflow: ellipsis;
 	}
 }

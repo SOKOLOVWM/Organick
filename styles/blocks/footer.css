@@ -79,6 +79,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: 0.5s;
 }
 
 .pages {
@@ -102,17 +103,17 @@
 	color: var(--color-dark-gray);
 }
 
-.contacts__content:hover,
-.pages__item:hover {
+.contacts__content:hover {
 	text-decoration: underline;
 }
 
 .social__item:hover {
 	background: var(--color-gray);
+	transform: scale(1.1);
 }
 
-.footer__bottom {
-	margin: 0 10px;
+.pages__item:hover {
+	font-family: OpenSans-Bold;
 }
 
 .footer__bottom iframe {

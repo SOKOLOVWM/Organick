@@ -1,6 +1,16 @@
+.header {
+	position: relative;
+}
+
 .header-top {
-	min-height: 80px;
+	width: 100%;
+	max-width: 1440px;
+	min-height: 160px;
 	padding: 40px 30px;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	background-color: #fff;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -9,6 +19,7 @@
 .header-bottom {
 	min-height: calc(260px + 40vw);
 	padding: 0 30px;
+	margin-top: 160px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
